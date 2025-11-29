@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "date": "2025-11-01",
+    "service": "Compute",
+    "region": "ap-singapore-1",
+    "compartment": "prod-core",
+    "resourceName": "web-node-1",
+    "usageAmount": 72,
+    "usageUnit": "OCPU-Hours",
+    "cost": 24.5,
+    "tags": {
+      "env": "prod",
+      "app": "online-store"
+    }
+  },
+  {
+    "id": "2",
+    "date": "2025-11-01",
+    "service": "Object Storage",
+    "region": "ap-singapore-1",
+    "compartment": "prod-data",
+    "resourceName": "txn-logs-bucket",
+    "usageAmount": 1500,
+    "usageUnit": "GB-Months",
+    "cost": 18.9,
+    "tags": {
+      "env": "prod",
+      "app": "online-store"
+    }
+  },
+  {
+    "id": "3",
+    "date": "2025-11-02",
+    "service": "Autonomous Database",
+    "region": "ap-singapore-1",
+    "compartment": "prod-db",
+    "resourceName": "orders-adb",
+    "usageAmount": 48,
+    "usageUnit": "OCPU-Hours",
+    "cost": 80.1,
+    "tags": {
+      "env": "prod",
+      "app": "online-store"
+    }
+  },
+  {
+    "id": "4",
+    "date": "2025-11-02",
+    "service": "Compute",
+    "region": "ap-singapore-1",
+    "compartment": "staging-core",
+    "resourceName": "stg-web-1",
+    "usageAmount": 24,
+    "usageUnit": "OCPU-Hours",
+    "cost": 7.8,
+    "tags": {
+      "env": "stg",
+      "app": "online-store"
+    }
+  },
+  {
+    "id": "5",
+    "date": "2025-11-03",
+    "service": "Load Balancer",
+    "region": "ap-sydney-1",
+    "compartment": "prod-core",
+    "resourceName": "lb-public",
+    "usageAmount": 72,
+    "usageUnit": "Shape-Hours",
+    "cost": 10.4,
+    "tags": {
+      "env": "prod",
+      "app": "online-store"
+    }
+  }
+]

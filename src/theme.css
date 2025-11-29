@@ -1,0 +1,31 @@
+:root {
+  /* Light theme (default) */
+  --bg: #ffffff;
+  --bg-card: #f6f7f9;
+  --bg-darker: #eceef2;
+
+  --text: #111111;
+  --text-soft: #555555;
+
+  --border: #d2d5db;
+  --primary: #ff6a00;
+}
+
+[data-theme="dark"] {
+  --bg: #05060a;
+  --bg-card: #0b0d16;
+  --bg-darker: #070813;
+
+  --text: #f5f5f5;
+  --text-soft: #a0a3b1;
+
+  --border: #27293d;
+  --primary: #ff6a00;
+}
+
+/* Apply to body */
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.2s ease, color 0.2s ease;
+}

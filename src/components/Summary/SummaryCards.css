@@ -1,0 +1,38 @@
+.summary-root {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.summary-card {
+  background: radial-gradient(circle at top left, var(--bg-card) 0, var(--bg) 70%);
+  border-radius: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+}
+
+.summary-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
+
+.summary-value {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.summary-unit {
+  font-size: 0.7rem;
+  margin-left: 4px;
+  color: var(--text-soft);
+}
+
+.summary-footnote {
+  font-size: 0.7rem;
+  margin-top: 4px;
+  color: var(--text-soft);
+}

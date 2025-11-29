@@ -1,0 +1,10 @@
+Usage Interval Start,Usage Interval End,Service,Resource Type,Resource Name,Region,Compartment Name,Usage Amount,Usage Unit,Cost,Tag.env,Description
+2025-11-01T00:00:00Z,2025-11-01T01:00:00Z,Compute,VM.Standard3.Flex,prod-web-1,ap-singapore-1,prod-core,1,OCPU-Hours,0.34,prod,Compute OCPU consumption for web node
+2025-11-01T00:00:00Z,2025-11-01T01:00:00Z,Compute,VM.Standard3.Flex,prod-api-1,ap-singapore-1,prod-core,1,OCPU-Hours,0.34,prod,Compute OCPU consumption for api node
+2025-11-01T00:00:00Z,2025-11-01T23:00:00Z,Object Storage,Standard,txn-logs-bucket,ap-singapore-1,prod-data,50,GB-Months,0.63,prod,Object storage capacity for logs
+2025-11-01T00:00:00Z,2025-11-02T00:00:00Z,Autonomous Database,ATP-D,orders-adb,ap-singapore-1,prod-db,2,OCPU-Hours,3.34,prod,Autonomous database compute usage
+2025-11-02T00:00:00Z,2025-11-02T12:00:00Z,Load Balancer,Flexible,prod-lb,ap-singapore-1,prod-core,12,Shape-Hours,0.94,prod,Public LB consumption
+2025-11-02T00:00:00Z,2025-11-02T12:00:00Z,Block Volume,Standard,prod-block-1,ap-singapore-1,prod-storage,100,GB-Months,3.10,prod,Block volume storage
+2025-11-02T00:00:00Z,2025-11-02T12:00:00Z,Networking,Data Egress,igw-egress,ap-singapore-1,prod-net,8,GB,0.48,prod,Outbound data transfer through IGW
+2025-11-03T00:00:00Z,2025-11-03T23:00:00Z,Compute,VM.Standard3.Flex,stg-web-1,ap-singapore-1,staging-core,1,OCPU-Hours,0.34,stg,Compute for staging environment
+2025-11-03T00:00:00Z,2025-11-03T23:00:00Z,Object Storage,Standard,staging-logs,ap-singapore-1,staging-data,25,GB-Months,0.29,stg,Staging logs bucket

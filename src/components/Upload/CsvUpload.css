@@ -1,0 +1,33 @@
+.csv-upload-root {
+  background: var(--bg-card);
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.csv-upload-root:hover {
+  border-color: var(--primary);
+}
+
+.drag-over {
+  background: rgba(255, 106, 0, 0.08);
+  border-color: var(--primary);
+}
+
+.csv-upload-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.csv-upload-text {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+.csv-upload-input {
+  display: none;
+}
