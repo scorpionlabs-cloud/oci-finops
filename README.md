@@ -11,8 +11,6 @@ React-based **OCI FinOps dashboard** with:
 
 ## Live Demo
 
-GitHub Pages (once deployed):
-
 https://scorpionlabs-cloud.github.io/oci-finops/
 
 ## Getting Started
@@ -32,7 +30,7 @@ npm run deploy
 
 This builds the app and pushes `dist/` to the `gh-pages` branch, which GitHub Pages serves at:
 
-https://scorpionlabs-cloud.github.io/oci-finops/
+https://username.github.io/yourreponame/
 
 ## CSV Upload
 
